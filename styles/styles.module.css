@@ -1,0 +1,64 @@
+@import url("./sectionHeader.module.css");
+@import url("./sectionCreative.module.css");
+@import url("./sectionOptions.module.css");
+@import url("./sectionServices.module.css");
+@import url("./sectionsPurchase.module.css");
+@import url("./sectionAmazingWork.module.css");
+@import url("./sectionBreakingMews.module.css");
+@import url("./sectionAbout.module.css");
+@import url("./loader.module.css");
+@import url("./sectionGallery.module.css");
+@import url("./sectionFooter.module.css");
+@import url("./buttonToTop.module.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --bg-color-and-hover: #18cfab;
+  --color-text: #fff;
+  --bg-color-option-darck: #1c2a33;
+  --bg-color-option-light: #18cfab;
+  --our-service-text: #777777;
+  --our-dervice-btn-text: #717171;
+  --bg-color-line: #18cfab;
+  --color-heading-text: #4e4e4e;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.section__line::before {
+  display: block;
+  content: "";
+  margin-left: 534px;
+  margin-bottom: 2px;
+  width: 76px;
+  height: 1px;
+  background-color: var(--bg-color-line);
+}
+.section__line::after {
+  display: block;
+  content: "";
+  margin-left: 544px;
+  width: 78px;
+  height: 1px;
+  background-color: var(--bg-color-line);
+}
+
+.loader__active {
+  display: block;
+}

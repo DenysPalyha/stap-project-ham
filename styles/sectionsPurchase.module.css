@@ -1,0 +1,56 @@
+.sections__purchase {
+  background-image: linear-gradient(
+      rgba(11, 11, 11, 0.8),
+      rgba(11, 11, 11, 0.8)
+    ),
+    url("../img/SectionsBackground/section-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.sections__purchase-heading {
+  padding-top: 127px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--bg-color-and-hover);
+}
+
+.sections__purchase-text {
+  margin-bottom: 67px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #d8d8d8;
+}
+
+.sections__purchase-btn-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.sections__purchase-btn {
+  margin-bottom: 127px;
+  position: relative;
+  min-width: 169px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  color: var(--color-text);
+  background: var(--bg-color-and-hover);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 16px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sections__purchase-btn:hover ~ .btn-fon {
+  top: 0;
+  transition: 0.1s linear;
+}

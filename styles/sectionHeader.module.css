@@ -1,0 +1,125 @@
+.header__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background: rgba(94, 93, 88, 0.6);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 200px;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-container {
+  position: relative;
+}
+
+.header__logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--color-text);
+  user-select: none;
+}
+
+.header__logo-text_the {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--color-text);
+}
+
+.header__logo-text_Ham {
+  color: var(--bg-color-and-hover);
+  font-weight: bold;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.header__item {
+  margin-right: 21px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__item-link {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+
+.header__item-link::after {
+  position: relative;
+  top: 27px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+}
+
+.header__item-link:hover::after {
+  background-color: var(--bg-color-and-hover);
+}
+
+.header__item-link:hover {
+  color: var(--bg-color-and-hover);
+  transition: 0.3s linear;
+}
+
+.header__item-img {
+  cursor: pointer;
+}
+
+.icon-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  fill: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.header__item-img::after {
+  position: relative;
+  top: 29px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+}
+
+.header__item-img:hover::after {
+  background-color: var(--bg-color-and-hover);
+}
+
+.icon-search:hover {
+  fill: var(--bg-color-and-hover);
+  transition: 0.3s linear;
+}

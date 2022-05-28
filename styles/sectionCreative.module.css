@@ -1,0 +1,90 @@
+.section__creative-bgimg {
+  background-image: linear-gradient(
+      rgba(154, 153, 153, 0.3),
+      rgba(154, 153, 153, 0.3)
+    ),
+    url(../img/SectionsBackground/sectionHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 380px 0 240px;
+  text-align: center;
+}
+
+.section__creative {
+}
+
+.section__creative-text {
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1;
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+
+.section__creative-span {
+  color: var(--bg-color-and-hover);
+}
+
+.section__creative-heading {
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 1;
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+
+.section__creative-paragraph {
+  margin-bottom: 170px;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button__wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.section__creative-btn {
+  position: relative;
+  min-width: 169px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  color: var(--color-text);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 16px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn-fon {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 169px;
+  height: 40px;
+  border-radius: 3px;
+  background: var(--color-text);
+}
+
+.section__creative-btn:hover ~ .btn-fon {
+  top: 0;
+  transition: 0.1s linear;
+}
+
+.button-grean {
+  margin-right: 26px;
+  background: var(--bg-color-and-hover);
+}
+
+.button-blue {
+  background: #00cbf6;
+}

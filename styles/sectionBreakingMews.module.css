@@ -1,0 +1,111 @@
+.section__breaking {
+  margin-top: 82px;
+  margin-bottom: 128px;
+}
+
+.section__breaking-heading {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--color-heading-text);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section__breaking-position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.section__breaking-wrapper {
+  width: 263px;
+  background: #f8fcfe;
+  border: 1px solid #f2f4f5;
+}
+
+.section__breaking-wrapper:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 42px;
+}
+
+.section__breaking-inner {
+  position: relative;
+  width: 263px;
+  height: 208px;
+}
+
+.section__breaking-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section__breaking-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background: #203e38;
+}
+
+.section__breaking-num,
+.section__breaking-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.section__breaking-card--Heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 39px;
+  color: var(--our-dervice-btn-text);
+  text-align: center;
+}
+
+.section__breaking-wrapper:hover .section__breaking-info {
+  background: var(--bg-color-and-hover);
+  transition: 0.3s linear;
+}
+
+.section__breaking-wrapper:hover .section__breaking-card--Heading {
+  color: var(--bg-color-and-hover);
+  transition: 0.3s linear;
+}
+
+.section__breaking-card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__breaking-card-admin--link,
+.section__breaking-card-comment--link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 39px;
+  color: #777777;
+}
+
+.section__breaking-card-admin--link::after {
+  position: relative;
+  top: 2px;
+  left: 0;
+
+  display: inline-block;
+  content: "";
+  width: 0.5px;
+  height: 13px;
+  margin-left: 15px;
+  background-color: #777777;
+}
+
+.section__breaking-card-comment--link {
+  margin-left: 15px;
+}

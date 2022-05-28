@@ -1,0 +1,31 @@
+.btn__up-wrapper {
+  display: none;
+}
+
+.btn__to-top {
+  position: fixed;
+  right: 100px;
+  bottom: 130px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #18cfab;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.icon-cheveron-up {
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+}
+
+.show-btn-toTop {
+  display: block;
+}

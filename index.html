@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Step-project-ham</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.module.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./scripts/index.js" type="module"></script>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header__wrapper">
+      <div class="header__inner container">
+        <div class="header__logo">
+          <div class="header__logo-container">
+            <img
+              class="header__logo-img"
+              src="./img/icon/logo-polygon.png"
+              alt="logo-polygon"
+            />
+            <span class="header__logo-text">h</span>
+          </div>
+          <a class="header__logo-link" href="#">
+            <p class="header__logo-text_the">
+              the<span class="header__logo-text_Ham">Ham</span>
+            </p>
+          </a>
+        </div>
+        <ul class="header__list">
+          <li class="header__item"><a class="header__item-link" href="#">home</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">about</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">blog</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">skills</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">service</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">work</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">testimonial</a></li>
+          <li class="header__item-img">
+            <a href="#">
+              <svg class="icon-search">
+                <use href="./img/icon/search-icon.svg#icon-search"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- HEADER SECTION -->
+    <main class="main__wrapper">
+      <!-- SECTION CREATIVE -->
+      <section class="section__creative-bgimg">
+        <div class="container">
+          <p class="section__creative-text">
+            the ham is
+            <span class="section__creative-span">wordpress theme</span>
+          </p>
+          <h1 class="section__creative-heading">we are creative</h1>
+          <p class="section__creative-paragraph">
+            Just Buy Enjoy These Awesome Features
+          </p>
+          <div class="button__wrapper">
+            <button class="section__creative-btn button-grean">
+              explore now
+            </button>
+            <div class="btn-fon"></div>
+          </div>
+          <div class="button__wrapper">
+            <button class="section__creative-btn button-blue">
+              purchase nom
+            </button>
+            <div class="btn-fon"></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION CREATIVE -->
+      <!-- SECTION OPTIONS -->
+      <section class="section__options">
+        <div class="sections__options-wrapper bgcolor-darck">
+          <div class="sections__options-container">
+            <svg class="sections__options-different">
+              <use href="./img/icon/symbol-defs.svg#icon-different"></use>
+            </svg>
+            <p class="section__options-text color-text-darck">
+              different theme option
+            </p>
+          </div>
+        </div>
+        <div class="sections__options-wrapper bgcolor-light">
+          <div class="sections__options-container">
+            <svg class="sections__options-fully">
+              <use href="./img/icon/symbol-defs.svg#icon-fully"></use>
+            </svg>
+            <p class="section__options-text color-text-light">
+              fully costomizable
+            </p>
+          </div>
+        </div>
+        <div class="sections__options-wrapper bgcolor-darck">
+          <div class="sections__options-container">
+            <svg class="sections__options-unlimited">
+              <use href="./img/icon/symbol-defs.svg#icon-unlimited"></use>
+            </svg>
+            <p class="section__options-text color-text-darck">
+              unlimited support
+            </p>
+          </div>
+        </div>
+        <div class="sections__options-wrapper bgcolor-light">
+          <div class="sections__options-container">
+            <svg class="sections__options-responsive">
+              <use href="./img/icon/symbol-defs.svg#icon-responsive"></use>
+            </svg>
+            <p class="section__options-text color-text-light">
+              responsive all device
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION OPTIONS -->
+      <!-- SECTION OUR SERVICES-->
+      <section class="section__services">
+        <div class="container">
+          <h2 class="section__services-heading">Our Services</h2>
+          <div class="section__line"></div>
+          <div
+            class="section__services-btn_wrapper section__services-btn_wrapper-js"
+          >
+            <button
+              type="button"
+              class="section__services-btn active"
+              data-nameBtn="web"
+            >
+              Web Design
+            </button>
+            <button
+              type="button"
+              class="section__services-btn"
+              data-nameBtn="graphic"
+            >
+              Graphic Design
+            </button>
+            <button
+              type="button"
+              class="section__services-btn"
+              data-nameBtn="support"
+            >
+              Online Support
+            </button>
+            <button
+              type="button"
+              class="section__services-btn"
+              data-nameBtn="app"
+            >
+              App Design
+            </button>
+            <button
+              type="button"
+              class="section__services-btn"
+              data-nameBtn="marketing"
+            >
+              Online Marketing
+            </button>
+            <button
+              type="button"
+              class="section__services-btn"
+              data-nameBtn="seo"
+            >
+              Seo Service
+            </button>
+          </div>
+          <div class="section__services-search_content-js">
+            <div 
+              class="section__services-content show-content"
+              data-nameText="web"
+            >
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/web-design2.jpg"
+                alt="web-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="section__services-content" data-nameText="graphic">
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/graphic-design12.jpg"
+                alt="graphic-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum.
+              </p>
+            </div>
+            <div class="section__services-content" data-nameText="support">
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/support.jpg"
+                alt="graphic-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="section__services-content" data-nameText="app">
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/app.jpg"
+                alt="graphic-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="section__services-content" data-nameText="marketing">
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/Online-Marketing.jpg"
+                alt="graphic-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum.
+              </p>
+            </div>
+            <div class="section__services-content" data-nameText="seo">
+              <img
+                class="section__services-content_img"
+                src="./img/ourServices/Seo-Service.jpg"
+                alt="graphic-design"
+              />
+              <p class="section__services-content_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION OUR SERVICES-->
+      <!-- SECTION PURCHASE -->
+      <section class="sections__purchase">
+        <div class="container">
+          <h2 class="sections__purchase-heading">
+            Everything is ready. just buy and install now
+          </h2>
+          <p class="sections__purchase-text">
+            Smooth reliable, responsive ready, perfect portfolio, unique blog
+            layout and many many options for you
+          </p>
+          <div class="sections__purchase-btn-wrapper">
+            <button type="button" class="sections__purchase-btn">
+              purchase now
+            </button>
+            <div class="btn-fon"></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION PURCHASE -->
+      <!--  SECTION AMAZING -->
+      <section class="section__amazing">
+        <div class="container">
+          <h2 class="section__amazing-heading">Our Amazing Work</h2>
+          <div class="section__line"></div>
+          <div class="section__amazing-btn--wrapper">
+            <button
+              type="button"
+              class="section__amazing-btn active-amazing"
+              data-amazing="all"
+              
+            >
+              All
+            </button>
+            <button
+              type="button"
+              class="section__amazing-btn"
+              data-amazing="graphic"
+              
+            >
+              Graphic Design
+            </button>
+            <button
+              type="button"
+              class="section__amazing-btn"
+              data-amazing="web"
+            >
+              Web Design
+            </button>
+            <button
+              type="button"
+              class="section__amazing-btn"
+              data-amazing="landing"
+            >
+              Landing Pages
+            </button>
+            <button
+              type="button"
+              class="section__amazing-btn"
+              data-amazing="wordpress"
+            >
+              Wordpress
+            </button>
+          </div>
+
+          <!-- section__amazing--images--wrapper -->
+
+          <div class="section__amazing-img--wrapper"></div>
+<!-- loader -->
+<div class="loader__wrapper">
+  <p class="loader">l</p>
+  <p class="loader">o</p>
+  <p class="loader">a</p>
+  <p class="loader">d</p>
+  <p class="loader">i</p>
+  <p class="loader">n</p>
+  <p class="loader">g</p>
+</div>
+<!-- loader -->
+
+        <div class="section__amazing-loadMore--wrapper">
+          <button class="section__amazing-btn--loadMore">
+            <svg class="icon-loadMore">
+              <use href="./img/icon/loadMore.svg#icon-loadMore"></use>
+            </svg>
+            Load More
+          </button>
+        </div>
+      </section>
+      <!--  SECTION AMAZING -->
+      <!--  SECTION BREAKING NEWS -->
+        <section class="section__breaking">
+          <div class="container">
+            <h2 class="section__breaking-heading">Breaking News</h2>
+            <div class="section__line"></div>
+            <div class="section__breaking-position">
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-1.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-2.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-3.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-4.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-5.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-6.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-7.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+  
+              <div class="section__breaking-wrapper">
+                <div class="section__breaking-inner">
+                  <a class="section__breaking-inner--link" href="#">
+                    <img class="section__breaking-img" src="./img/BreakingNews/amazing-post-8.jpg" alt="BreakingNews" >
+                  <div class="section__breaking-info">
+                    <span class="section__breaking-num">12</span>
+                    <span class="section__breaking-text">Feb</span>
+                  </div> 
+                  </a>
+                </div>
+                <h3 class="section__breaking-card--Heading">Amazing Blog Post</h3>
+                <div class="section__breaking-card-info">
+                 <a class="section__breaking-card-admin--link" href="#">By admin</a>
+                 <a class="section__breaking-card-comment--link" href="#">2 comment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!--  SECTION BREAKING NEWS -->
+      <!-- SECTION SAY ABOUT -->
+      <section class="section__about">
+        <div class="container">
+          <h2 class="section__about-heading">What People Say About theHam</h2>
+          <div class="section__line"></div>
+          <div class="position-icon">
+            <svg class="icon-sayAbout">
+              <use href="./img/icon/sayAbout.svg#icon-sayAbout"></use>
+            </svg>
+          </div>
+          <!-- section about wrapper info -->
+          <div class="section__about-wrapper"></div>
+
+                    <!-- section about wrapper info -->
+          <div class="section__about-inner--carousel">
+            <div class="section__about-inner--hiden">
+              <div class="section__about-inner--icon">
+                <div id="1" class="section__about-images--bg active__say" data-name="hasan">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-1.png" alt="hasan ali" data-imgabout="hasan">
+                </div>
+                <div id="2" class="section__about-images--bg" data-name="monica">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-2.png" alt="Monica Cobb" data-imgabout="monica">
+                </div>
+                <div id="3" class="section__about-images--bg" data-name="derek">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-3.png" alt="Derek Silva" data-imgabout="derek">
+                </div>
+                <div id="4" class="section__about-images--bg" data-name="nora">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-4.png" alt="Nora Villa" data-imgabout="nora">
+                </div>
+                <div id="5" class="section__about-images--bg" data-name="jason">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-5.png" alt="Jason Tyson" data-imgabout="jason">
+                </div>
+                <div id="6" class="section__about-images--bg" data-name="aisha">
+                  <img class="section__about-inner--images " src="./img/sayAboutTheHam/sayAbout-6.png" alt="Aisha James" data-imgabout="aisha">
+                </div>
+                <div id="7" class="section__about-images--bg" data-name="jessi">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-7.png" alt="Jessi Dupree" data-imgabout="jessi">
+                </div>
+                <div id="8" class="section__about-images--bg" data-name="catrina">
+                  <img class="section__about-inner--images" src="./img/sayAboutTheHam/sayAbout-8.png" alt="Catrina Higgs" data-imgabout="catrina">
+                </div>
+              </div>
+            </div>
+            
+              <div class="container__inner-btn-js">
+                <button type="button" class="section__about-inner--button btnPrev" data-action="btnPrev">
+                  <svg class="icon-prev_left">
+                    <use href="./img/icon/sayAbout.svg#icon-prev_left"></use>
+                  </svg>
+                </button>
+                <button type="button" class="section__about-inner--button btnNext" data-action="btnPrev">
+                  <svg class="icon-next_right">
+                    <use href="./img/icon/sayAbout.svg#icon-next_right"></use>
+                  </svg>
+                </button>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION SAY ABOUT -->
+      <!-- SECTION GALLERY -->
+      <section class="section__gallery">
+        <div class="container">
+          <h2 class="section__gallery-heading">Gallery of best images</h2>
+          <div class="section__line"></div>
+          <div class="section__gallery-grid">
+            
+             <div class="grid">
+              <div class="grid-item">
+                <img class="section__gallery-img" src="./img/galleryBestImages/best-images-1.jpg" alt="best-images">
+              </div>
+
+              <div class="grid-item">
+                <img class="section__gallery-img" src="./img/galleryBestImages/best-images-4.jpg" alt="best-images">
+              </div>
+
+              <div class="grid-item">
+                <div class="action-size">
+                  <dir class="average">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-7.jpg" alt="best-images">
+                  </dir>
+                  <dir class="average">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-8.jpg" alt="best-images">
+                  </dir>
+                </div>
+              </div>
+
+              <div class="grid-item">
+
+                <div class="action-inner">
+
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-9.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-10.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-11.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-12.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-13.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-14.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-15.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-16.jpg" alt="best-images">
+                  </dir>
+                  <dir class="smale">
+                    <img class="section__gallery-img" src="./img/galleryBestImages/best-images-17.jpg" alt="best-images">
+                  </dir>
+
+                </div>
+
+            </div>
+
+              <div class="grid-item">
+                <img class="section__gallery-img" src="./img/galleryBestImages/best-images-2.jpg" alt="best-images">
+              </div>
+
+            <div class="grid-item">
+              <img class="section__gallery-img" src="./img/galleryBestImages/best-images-5.jpg" alt="best-images">
+            </div>
+
+            <div class="grid-item">
+              <img class="section__gallery-img" src="./img/galleryBestImages/best-images-18.jpg" alt="best-images">
+            </div>
+
+              <div class="grid-item">
+                <img class="section__gallery-img" src="./img/galleryBestImages/best-images-3.jpg" alt="best-images">
+              </div>
+
+              <div class="grid-item">
+                <img class="section__gallery-img" src="./img/galleryBestImages/best-images-6.jpg" alt="best-images">
+              </div>
+
+            </div>
+            </div>
+
+<!-- loader -->
+<div class="loader__inner">
+  <p class="loader-text">l</p>
+  <p class="loader-text">o</p>
+  <p class="loader-text">a</p>
+  <p class="loader-text">d</p>
+  <p class="loader-text">i</p>
+  <p class="loader-text">n</p>
+  <p class="loader-text">g</p>
+</div>
+<!-- loader -->
+
+            <div class="section__gallery-loadMore--wrapper">
+              <button class="section__gallery-btn--loadMore">
+                <svg class="icon-loadMore--gallery">
+                  <use href="./img/icon/loadMore.svg#icon-loadMore"></use>
+                </svg>
+                Load More
+              </button>
+            </div>
+
+            <div class="notification-wrapper">
+              <div class="notification">
+                <p class="notification-text">sorry something went wrong!</p>
+                <p class="notification-text">try again later please!</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- SECTION GALLERY -->
+
+      <div class="btn__up-wrapper">
+        <button class="btn__to-top">
+          <svg class="icon-cheveron-up">
+            <use href="./img/icon/to-up.svg#icon-cheveron-up"></use>
+          </svg>
+      </button>
+      </div>
+    </main>
+
+    <footer class="section__footer">
+      <div class="container">
+        <p class="section__footer-text">&copy Copyright 2015 <a class="section__footer-text--link" href="#">theHam</a>All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </body>
+</html>
