@@ -64,8 +64,9 @@ function loadMoreAddImages(e) {
     return;
   }
 
-  const elemCard = document.querySelector(".section__amazing-card");
-  const dataElem = elemCard.dataset.amazing;
+  const activeBtn = amazingWrapperSection.querySelector(".active-amazing");
+
+  const dataElem = activeBtn.dataset.amazing;
 
   if (dataElem === "all") {
     loader.classList.add("loader__active");
@@ -88,7 +89,7 @@ function loadMoreAddImages(e) {
     setTimeout(() => {
       loader.classList.remove("loader__active");
       btnLoadMore.classList.remove("load-more-hiden");
-      isAddColectionsImeges(elemCard.dataset.amazing);
+      isAddColectionsImeges(dataElem);
     }, 2000);
   }
 
